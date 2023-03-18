@@ -1,0 +1,13 @@
+train: C:/yolov8/dataset/duck/train/images
+val: C:/yolov8/dataset/duck/valid/images
+test: C:/yolov8/dataset/duck/test/images
+
+nc: 1
+names: ['duck']
+
+roboflow:
+  workspace: project
+  project: duck-bgq7g
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/duck-bgq7g/dataset/1

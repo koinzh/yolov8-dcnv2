@@ -1,0 +1,138 @@
+# error1: yolov8l不完整
+
+(pytorch) C:\yolov8>yolo task=detect mode=train model=yolov8l.pt data="C:\\yolov8\\dataset\\duck\\data.yaml" epochs=100 imgsz=640 workers=4 batch=4
+Downloading https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8l.pt to yolov8l.pt...
+ 99%|████████████████████████████████████████████████████████████████████████████ | 82.7M/83.7M [00:20<00:00, 4.20MB/s]
+Traceback (most recent call last):
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\Scripts\yolo.exe\__main__.py", line 7, in <module>
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\cfg\__init__.py", line 292, in entrypoint
+    model = YOLO(model, task=task)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\engine\model.py", line 96, in __init__
+    self._load(model, task)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\engine\model.py", line 135, in _load
+    self.model, self.ckpt = attempt_load_one_weight(weights)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\nn\tasks.py", line 403, in attempt_load_one_weight
+    ckpt, weight = torch_safe_load(weight)  # load ckpt
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\nn\tasks.py", line 343, in torch_safe_load
+    return torch.load(file, map_location='cpu'), file  # load
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\serialization.py", line 777, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\serialization.py", line 282, in __init__
+    super(_open_zipfile_reader, self).__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+
+
+# error2: gpu不足
+
+(pytorch) C:\yolov8>yolo task=detect mode=train model=yolov8l.pt data="C:\\yolov8\\dataset\\duck\\data.yaml" epochs=100 imgsz=640 workers=4 batch=4
+Downloading https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8l.pt to yolov8l.pt...
+ 99%|████████████████████████████████████████████████████████████████████████████ | 82.7M/83.7M [00:20<00:00, 4.20MB/s]
+Traceback (most recent call last):
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\Scripts\yolo.exe\__main__.py", line 7, in <module>
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\cfg\__init__.py", line 292, in entrypoint
+    model = YOLO(model, task=task)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\engine\model.py", line 96, in __init__
+    self._load(model, task)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\engine\model.py", line 135, in _load
+    self.model, self.ckpt = attempt_load_one_weight(weights)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\nn\tasks.py", line 403, in attempt_load_one_weight
+    ckpt, weight = torch_safe_load(weight)  # load ckpt
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\nn\tasks.py", line 343, in torch_safe_load
+    return torch.load(file, map_location='cpu'), file  # load
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\serialization.py", line 777, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\serialization.py", line 282, in __init__
+    super(_open_zipfile_reader, self).__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+
+(pytorch) C:\yolov8>yolo task=detect mode=train model=yolov8l.pt data="C:\\yolov8\\dataset\\duck\\data.yaml" epochs=100 imgsz=640 workers=4 batch=4
+New https://pypi.org/project/ultralytics/8.0.54 available  Update with 'pip install -U ultralytics'
+Ultralytics YOLOv8.0.53  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
+yolo\engine\trainer: task=detect, mode=train, model=yolov8l.pt, data=C:\\yolov8\\dataset\\duck\\data.yaml, epochs=100, patience=50, batch=4, imgsz=640, save=True, save_period=-1, cache=False, device=None, workers=4, project=None, name=None, exist_ok=False, pretrained=False, optimizer=SGD, verbose=True, seed=0, deterministic=True, single_cls=False, image_weights=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, show=False, save_txt=False, save_conf=False, save_crop=False, hide_labels=False, hide_conf=False, vid_stride=1, line_thickness=3, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, boxes=True, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, fl_gamma=0.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, mosaic=1.0, mixup=0.0, copy_paste=0.0, cfg=None, v5loader=False, tracker=botsort.yaml, save_dir=runs\detect\train
+Overriding model.yaml nc=80 with nc=1
+
+                   from  n    params  module                                       arguments
+  0                  -1  1      1856  ultralytics.nn.modules.Conv                  [3, 64, 3, 2]
+  1                  -1  1     73984  ultralytics.nn.modules.Conv                  [64, 128, 3, 2]
+  2                  -1  3    279808  ultralytics.nn.modules.C2f                   [128, 128, 3, True]
+  3                  -1  1    295424  ultralytics.nn.modules.Conv                  [128, 256, 3, 2]
+  4                  -1  6   2101248  ultralytics.nn.modules.C2f                   [256, 256, 6, True]
+  5                  -1  1   1180672  ultralytics.nn.modules.Conv                  [256, 512, 3, 2]
+  6                  -1  6   8396800  ultralytics.nn.modules.C2f                   [512, 512, 6, True]
+  7                  -1  1   2360320  ultralytics.nn.modules.Conv                  [512, 512, 3, 2]
+  8                  -1  3   4461568  ultralytics.nn.modules.C2f                   [512, 512, 3, True]
+  9                  -1  1    656896  ultralytics.nn.modules.SPPF                  [512, 512, 5]
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.Concat                [1]
+ 12                  -1  3   4723712  ultralytics.nn.modules.C2f                   [1024, 512, 3]
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.Concat                [1]
+ 15                  -1  3   1247744  ultralytics.nn.modules.C2f                   [768, 256, 3]
+ 16                  -1  1    590336  ultralytics.nn.modules.Conv                  [256, 256, 3, 2]
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.Concat                [1]
+ 18                  -1  3   4592640  ultralytics.nn.modules.C2f                   [768, 512, 3]
+ 19                  -1  1   2360320  ultralytics.nn.modules.Conv                  [512, 512, 3, 2]
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.Concat                [1]
+ 21                  -1  3   4723712  ultralytics.nn.modules.C2f                   [1024, 512, 3]
+ 22        [15, 18, 21]  1   5583571  ultralytics.nn.modules.Detect                [1, [256, 512, 512]]
+Model summary: 365 layers, 43630611 parameters, 43630595 gradients, 165.4 GFLOPs
+
+Transferred 589/595 items from pretrained weights
+AMP: running Automatic Mixed Precision (AMP) checks with YOLOv8n...
+Downloading https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt to yolov8n.pt...
+100%|█████████████████████████████████████████████████████████████████████████████| 6.23M/6.23M [00:02<00:00, 3.11MB/s]
+AMP: checks passed
+optimizer: SGD(lr=0.01) with parameter groups 97 weight(decay=0.0), 104 weight(decay=0.0005), 103 bias
+train: Scanning C:\yolov8\dataset\duck\train\labels.cache... 124 images, 0 backgrounds, 0 corrupt: 100%|██████████| 124
+val: Scanning C:\yolov8\dataset\duck\valid\labels.cache... 12 images, 0 backgrounds, 0 corrupt: 100%|██████████| 12/12
+Plotting labels to runs\detect\train\labels.jpg...
+Image sizes 640 train, 640 val
+Using 4 dataloader workers
+Logging results to runs\detect\train
+Starting training for 100 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+  0%|          | 0/31 [00:07<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\Scripts\yolo.exe\__main__.py", line 7, in <module>
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\cfg\__init__.py", line 317, in entrypoint
+    getattr(model, mode)(**overrides)  # default args from model
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\engine\model.py", line 320, in train
+    self.trainer.train()
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\engine\trainer.py", line 186, in train
+    self._do_train(RANK, world_size)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\engine\trainer.py", line 316, in _do_train
+    preds = self.model(batch['img'])
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\nn\tasks.py", line 199, in forward
+    return self._forward_once(x, profile, visualize)  # single-scale inference, train
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\nn\tasks.py", line 58, in _forward_once
+    x = m(x)  # run
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\nn\modules.py", line 192, in forward
+    y = list(self.cv1(x).chunk(2, 1))
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\nn\modules.py", line 34, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\nn\modules\module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\nn\modules\batchnorm.py", line 171, in forward
+    return F.batch_norm(
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\nn\functional.py", line 2450, in batch_norm
+    return torch.batch_norm(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 2.00 GiB total capacity; 1.67 GiB already allocated; 0 bytes free; 1.72 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

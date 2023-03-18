@@ -1,0 +1,69 @@
+(pytorch) C:\yolov8>yolo task=detect mode=train model=yolov8m.pt data="C:\\yolov8\\dataset\\duck\\data.yaml" epochs=100 imgsz=640 workers=4 batch=4
+Downloading https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8m.pt to yolov8m.pt...
+100%|█████████████████████████████████████████████████████████████████████████████| 49.7M/49.7M [00:07<00:00, 7.43MB/s]
+New https://pypi.org/project/ultralytics/8.0.54 available  Update with 'pip install -U ultralytics'
+Ultralytics YOLOv8.0.53  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
+yolo\engine\trainer: task=detect, mode=train, model=yolov8m.pt, data=C:\\yolov8\\dataset\\duck\\data.yaml, epochs=100, patience=50, batch=4, imgsz=640, save=True, save_period=-1, cache=False, device=None, workers=4, project=None, name=None, exist_ok=False, pretrained=False, optimizer=SGD, verbose=True, seed=0, deterministic=True, single_cls=False, image_weights=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, show=False, save_txt=False, save_conf=False, save_crop=False, hide_labels=False, hide_conf=False, vid_stride=1, line_thickness=3, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, boxes=True, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=False, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, fl_gamma=0.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, mosaic=1.0, mixup=0.0, copy_paste=0.0, cfg=None, v5loader=False, tracker=botsort.yaml, save_dir=runs\detect\train
+Overriding model.yaml nc=80 with nc=1
+
+                   from  n    params  module                                       arguments
+  0                  -1  1      1392  ultralytics.nn.modules.Conv                  [3, 48, 3, 2]
+  1                  -1  1     41664  ultralytics.nn.modules.Conv                  [48, 96, 3, 2]
+  2                  -1  2    111360  ultralytics.nn.modules.C2f                   [96, 96, 2, True]
+  3                  -1  1    166272  ultralytics.nn.modules.Conv                  [96, 192, 3, 2]
+  4                  -1  4    813312  ultralytics.nn.modules.C2f                   [192, 192, 4, True]
+  5                  -1  1    664320  ultralytics.nn.modules.Conv                  [192, 384, 3, 2]
+  6                  -1  4   3248640  ultralytics.nn.modules.C2f                   [384, 384, 4, True]
+  7                  -1  1   1991808  ultralytics.nn.modules.Conv                  [384, 576, 3, 2]
+  8                  -1  2   3985920  ultralytics.nn.modules.C2f                   [576, 576, 2, True]
+  9                  -1  1    831168  ultralytics.nn.modules.SPPF                  [576, 576, 5]
+ 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 11             [-1, 6]  1         0  ultralytics.nn.modules.Concat                [1]
+ 12                  -1  2   1993728  ultralytics.nn.modules.C2f                   [960, 384, 2]
+ 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']
+ 14             [-1, 4]  1         0  ultralytics.nn.modules.Concat                [1]
+ 15                  -1  2    517632  ultralytics.nn.modules.C2f                   [576, 192, 2]
+ 16                  -1  1    332160  ultralytics.nn.modules.Conv                  [192, 192, 3, 2]
+ 17            [-1, 12]  1         0  ultralytics.nn.modules.Concat                [1]
+ 18                  -1  2   1846272  ultralytics.nn.modules.C2f                   [576, 384, 2]
+ 19                  -1  1   1327872  ultralytics.nn.modules.Conv                  [384, 384, 3, 2]
+ 20             [-1, 9]  1         0  ultralytics.nn.modules.Concat                [1]
+ 21                  -1  2   4207104  ultralytics.nn.modules.C2f                   [960, 576, 2]
+ 22        [15, 18, 21]  1   3776275  ultralytics.nn.modules.Detect                [1, [192, 384, 576]]
+Model summary: 295 layers, 25856899 parameters, 25856883 gradients, 79.1 GFLOPs
+
+Transferred 469/475 items from pretrained weights
+AMP: running Automatic Mixed Precision (AMP) checks with YOLOv8n...
+Downloading https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt to yolov8n.pt...
+100%|█████████████████████████████████████████████████████████████████████████████| 6.23M/6.23M [00:00<00:00, 6.65MB/s]
+AMP: checks passed
+optimizer: SGD(lr=0.01) with parameter groups 77 weight(decay=0.0), 84 weight(decay=0.0005), 83 bias
+train: Scanning C:\yolov8\dataset\duck\train\labels.cache... 124 images, 0 backgrounds, 0 corrupt: 100%|██████████| 124
+val: Scanning C:\yolov8\dataset\duck\valid\labels.cache... 12 images, 0 backgrounds, 0 corrupt: 100%|██████████| 12/12
+Plotting labels to runs\detect\train\labels.jpg...
+Image sizes 640 train, 640 val
+Using 4 dataloader workers
+Logging results to runs\detect\train
+Starting training for 100 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+      1/100      1.11G      1.962      2.786      2.198         22        640:   3%|▎         | 1/31 [00:11<05:39, 11.3
+Traceback (most recent call last):
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\Scripts\yolo.exe\__main__.py", line 7, in <module>
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\cfg\__init__.py", line 317, in entrypoint
+    getattr(model, mode)(**overrides)  # default args from model
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\engine\model.py", line 320, in train
+    self.trainer.train()
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\engine\trainer.py", line 186, in train
+    self._do_train(RANK, world_size)
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\ultralytics\yolo\engine\trainer.py", line 324, in _do_train
+    self.scaler.scale(self.loss).backward()
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\_tensor.py", line 488, in backward
+    torch.autograd.backward(
+  File "C:\Users\zxy\anaconda3\envs\pytorch\lib\site-packages\torch\autograd\__init__.py", line 197, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 2.00 GiB total capacity; 1.63 GiB already allocated; 0 bytes free; 1.70 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
