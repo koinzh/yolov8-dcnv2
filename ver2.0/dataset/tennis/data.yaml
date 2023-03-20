@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['hat', 'person', 'tennis']
+
+roboflow:
+  workspace: project
+  project: multi_objects-mcguk
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/multi_objects-mcguk/dataset/1

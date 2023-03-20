@@ -1,0 +1,35 @@
+# best.pt
+(pytorch) C:\yolov8>yolo detect mode=predict model="C:\\yolov8\\runs\\detect\\train\\weights\\best.pt" source="C:\\yolov8\\images" save=true
+Ultralytics YOLOv8.0.53  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
+Model summary (fused): 168 layers, 3006233 parameters, 0 gradients, 8.1 GFLOPs
+
+image 1/10 C:\yolov8\images\201.jpg: 448x640 2 persons, 35.9ms
+image 2/10 C:\yolov8\images\202.jpg: 448x640 3 hats, 2 persons, 3 tenniss, 31.2ms
+image 3/10 C:\yolov8\images\203.jpg: 640x512 2 persons, 2 tenniss, 15.6ms
+image 4/10 C:\yolov8\images\204.jpg: 448x640 1 person, 1 tennis, 15.6ms
+image 5/10 C:\yolov8\images\205.jpg: 640x448 1 person, 1 tennis, 15.6ms
+image 6/10 C:\yolov8\images\206.jpg: 512x640 2 hats, 2 persons, 31.2ms
+image 7/10 C:\yolov8\images\207.jpg: 640x448 1 person, 1 tennis, 31.2ms
+image 8/10 C:\yolov8\images\208.jpg: 640x448 6 persons, 1 tennis, 15.6ms
+image 9/10 C:\yolov8\images\209.jpg: 640x608 1 hat, 1 person, 1 tennis, 15.7ms
+image 10/10 C:\yolov8\images\210.jpg: 640x448 2 persons, 1 tennis, 23.6ms
+Speed: 1.6ms preprocess, 23.1ms inference, 0.3ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to runs\detect\predict
+
+# last.pt
+(pytorch) C:\yolov8>yolo detect mode=predict model="C:\\yolov8\\runs\\detect\\train\\weights\\last.pt" source="C:\\yolov8\\images" save=true
+Ultralytics YOLOv8.0.53  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
+Model summary (fused): 168 layers, 3006233 parameters, 0 gradients, 8.1 GFLOPs
+
+image 1/10 C:\yolov8\images\201.jpg: 448x640 1 person, 15.6ms
+image 2/10 C:\yolov8\images\202.jpg: 448x640 2 hats, 3 persons, 2 tenniss, 15.7ms
+image 3/10 C:\yolov8\images\203.jpg: 640x512 2 persons, 1 tennis, 15.6ms
+image 4/10 C:\yolov8\images\204.jpg: 448x640 1 person, 1 tennis, 15.6ms
+image 5/10 C:\yolov8\images\205.jpg: 640x448 1 person, 1 tennis, 31.2ms
+image 6/10 C:\yolov8\images\206.jpg: 512x640 1 hat, 2 persons, 15.6ms
+image 7/10 C:\yolov8\images\207.jpg: 640x448 1 person, 1 tennis, 31.2ms
+image 8/10 C:\yolov8\images\208.jpg: 640x448 5 persons, 1 tennis, 20.7ms
+image 9/10 C:\yolov8\images\209.jpg: 640x608 1 hat, 1 person, 1 tennis, 15.6ms
+image 10/10 C:\yolov8\images\210.jpg: 640x448 2 persons, 1 tennis, 10.4ms
+Speed: 0.0ms preprocess, 18.7ms inference, 10.3ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to runs\detect\predict2

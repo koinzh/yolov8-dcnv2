@@ -1,0 +1,13 @@
+# train
+yolo task=detect mode=train model=yolov8n.pt data="C:\\yolov8\\dataset\\tennis\\data.yaml" epochs=100 imgsz=640 workers=4 batch=4
+
+# val
+yolo task=detect mode=val model="C:\\yolov8\\runs\\detect\\train\\weights\\best.pt" data="C:\\yolov8\\dataset\\tennis\\data.yaml"
+
+# predict
+yolo detect mode=predict model="C:\\yolov8\\runs\\detect\\train\\weights\\best.pt" source="C:\\yolov8\\images" save=true
+yolo detect mode=predict model="C:\\yolov8\\runs\\detect\\train\\weights\\last.pt" source="C:\\yolov8\\images" save=true
+
+# predict video
+yolo detect mode=predict model="C:\\yolov8\\runs\\detect\\train\\weights\\best.pt" source="C:\\yolov8\\video\\1.mp4" save=true
+yolo detect mode=predict model="C:\\yolov8\\runs\\detect\\train\\weights\\last.pt" source="C:\\yolov8\\video\\1.mp4" save=true

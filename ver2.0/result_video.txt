@@ -1,0 +1,353 @@
+# best.pt
+(pytorch) C:\yolov8>yolo detect mode=predict model="C:\\yolov8\\runs\\detect\\train\\weights\\best.pt" source="C:\\yolov8\\video\\1.mp4" save=true
+Ultralytics YOLOv8.0.53  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
+Model summary (fused): 168 layers, 3006233 parameters, 0 gradients, 8.1 GFLOPs
+
+video 1/1 (1/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 31.2ms
+video 1/1 (2/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 31.2ms
+video 1/1 (3/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 31.2ms
+video 1/1 (4/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 31.2ms
+video 1/1 (5/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 15.6ms
+video 1/1 (6/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 31.3ms
+video 1/1 (7/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 31.2ms
+video 1/1 (8/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 31.2ms
+video 1/1 (9/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 15.6ms
+video 1/1 (10/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 15.7ms
+video 1/1 (11/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 31.3ms
+video 1/1 (12/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 34.6ms
+video 1/1 (13/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (14/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (15/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (16/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 31.3ms
+video 1/1 (17/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 15.6ms
+video 1/1 (18/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 31.3ms
+video 1/1 (19/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 3 tenniss, 15.7ms
+video 1/1 (20/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 22.2ms
+video 1/1 (21/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (22/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (23/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (24/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (25/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (26/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (27/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (28/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (29/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (30/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (31/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (32/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (33/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (34/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (35/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (36/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (37/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (38/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (39/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (40/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (41/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (42/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (43/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (44/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (45/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (46/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (47/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (48/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (49/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (50/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (51/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (52/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (53/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (54/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (55/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (56/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (57/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (58/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (59/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (60/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (61/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (62/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (63/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (64/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (65/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (66/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (67/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (68/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (69/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (70/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (71/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 4 tenniss, 31.2ms
+video 1/1 (72/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 4 tenniss, 15.6ms
+video 1/1 (73/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 4 tenniss, 15.6ms
+video 1/1 (74/169) C:\yolov8\video\1.mp4: 384x640 3 persons, 31.2ms
+video 1/1 (75/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 31.2ms
+video 1/1 (76/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 31.3ms
+video 1/1 (77/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (78/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (79/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 2 tenniss, 15.6ms
+video 1/1 (80/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 2 tenniss, 38.9ms
+video 1/1 (81/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 2 tenniss, 31.2ms
+video 1/1 (82/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 5 persons, 2 tenniss, 31.2ms
+video 1/1 (83/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (84/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (85/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (86/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (87/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (88/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (89/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (90/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (91/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (92/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (93/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (94/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 38.4ms
+video 1/1 (95/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (96/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (97/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.7ms
+video 1/1 (98/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (99/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (100/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (101/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (102/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (103/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (104/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (105/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (106/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (107/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (108/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (109/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (110/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.8ms
+video 1/1 (111/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (112/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (113/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 5 persons, 2 tenniss, 15.6ms
+video 1/1 (114/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (115/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.7ms
+video 1/1 (116/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (117/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (118/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (119/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (120/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (121/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.7ms
+video 1/1 (122/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (123/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (124/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 38.6ms
+video 1/1 (125/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (126/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (127/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (128/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (129/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (130/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (131/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (132/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 16.2ms
+video 1/1 (133/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (134/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (135/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (136/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (137/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (138/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (139/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (140/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (141/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (142/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.7ms
+video 1/1 (143/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (144/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (145/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (146/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (147/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (148/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (149/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (150/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (151/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (152/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (153/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.7ms
+video 1/1 (154/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (155/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 23.0ms
+video 1/1 (156/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (157/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (158/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (159/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (160/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (161/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (162/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 5 persons, 1 tennis, 31.3ms
+video 1/1 (163/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 5 persons, 1 tennis, 31.3ms
+video 1/1 (164/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 5 persons, 1 tennis, 31.2ms
+video 1/1 (165/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (166/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (167/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (168/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (169/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.3ms
+Speed: 1.5ms preprocess, 25.1ms inference, 2.7ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to runs\detect\predict3
+
+# last.pt
+(pytorch) C:\yolov8>yolo detect mode=predict model="C:\\yolov8\\runs\\detect\\train\\weights\\last.pt" source="C:\\yolov8\\video\\1.mp4" save=true
+Ultralytics YOLOv8.0.53  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
+Model summary (fused): 168 layers, 3006233 parameters, 0 gradients, 8.1 GFLOPs
+
+video 1/1 (1/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 22.2ms
+video 1/1 (2/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 2 tenniss, 15.6ms
+video 1/1 (3/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 2 tenniss, 31.3ms
+video 1/1 (4/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 2 tenniss, 31.3ms
+video 1/1 (5/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 2 tenniss, 31.2ms
+video 1/1 (6/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 2 tenniss, 15.6ms
+video 1/1 (7/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 2 tenniss, 15.6ms
+video 1/1 (8/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 2 tenniss, 31.3ms
+video 1/1 (9/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (10/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 15.6ms
+video 1/1 (11/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (12/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 15.6ms
+video 1/1 (13/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 31.2ms
+video 1/1 (14/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 31.0ms
+video 1/1 (15/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 15.6ms
+video 1/1 (16/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (17/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (18/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 26.1ms
+video 1/1 (19/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 15.6ms
+video 1/1 (20/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (21/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (22/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 2 persons, 3 tenniss, 15.6ms
+video 1/1 (23/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (24/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (25/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (26/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (27/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 19.9ms
+video 1/1 (28/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (29/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (30/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (31/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (32/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (33/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (34/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (35/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (36/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (37/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 31.9ms
+video 1/1 (38/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (39/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 15.6ms
+video 1/1 (40/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (41/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (42/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 15.6ms
+video 1/1 (43/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (44/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (45/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (46/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (47/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (48/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (49/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (50/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (51/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (52/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (53/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (54/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (55/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (56/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (57/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 31.2ms
+video 1/1 (58/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 15.6ms
+video 1/1 (59/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 15.6ms
+video 1/1 (60/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 31.9ms
+video 1/1 (61/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (62/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 2 persons, 3 tenniss, 31.3ms
+video 1/1 (63/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (64/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.3ms
+video 1/1 (65/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (66/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (67/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (68/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (69/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 15.6ms
+video 1/1 (70/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (71/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (72/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 31.2ms
+video 1/1 (73/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 3 persons, 3 tenniss, 15.7ms
+video 1/1 (74/169) C:\yolov8\video\1.mp4: 384x640 2 persons, 1 tennis, 15.6ms
+video 1/1 (75/169) C:\yolov8\video\1.mp4: 384x640 1 hat, 1 person, 31.2ms
+video 1/1 (76/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 31.3ms
+video 1/1 (77/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (78/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (79/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (80/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (81/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (82/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (83/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 16.3ms
+video 1/1 (84/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (85/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (86/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (87/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (88/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (89/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 16.7ms
+video 1/1 (90/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (91/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (92/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (93/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (94/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (95/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (96/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (97/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.7ms
+video 1/1 (98/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (99/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.7ms
+video 1/1 (100/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (101/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (102/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (103/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (104/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.7ms
+video 1/1 (105/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (106/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.9ms
+video 1/1 (107/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (108/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.7ms
+video 1/1 (109/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.7ms
+video 1/1 (110/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (111/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (112/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.6ms
+video 1/1 (113/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (114/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.2ms
+video 1/1 (115/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (116/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 15.7ms
+video 1/1 (117/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (118/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 2 tenniss, 31.3ms
+video 1/1 (119/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (120/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (121/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (122/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (123/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (124/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (125/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (126/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (127/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (128/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 16.2ms
+video 1/1 (129/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (130/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 31.3ms
+video 1/1 (131/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 31.3ms
+video 1/1 (132/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 31.3ms
+video 1/1 (133/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 15.6ms
+video 1/1 (134/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 15.7ms
+video 1/1 (135/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 31.2ms
+video 1/1 (136/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 31.3ms
+video 1/1 (137/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 31.2ms
+video 1/1 (138/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 15.7ms
+video 1/1 (139/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 15.6ms
+video 1/1 (140/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 31.2ms
+video 1/1 (141/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 31.3ms
+video 1/1 (142/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 31.2ms
+video 1/1 (143/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 15.6ms
+video 1/1 (144/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 3 persons, 1 tennis, 31.3ms
+video 1/1 (145/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (146/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (147/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (148/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.7ms
+video 1/1 (149/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (150/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (151/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.9ms
+video 1/1 (152/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (153/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (154/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (155/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (156/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (157/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (158/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (159/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (160/169) C:\yolov8\video\1.mp4: 384x640 2 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (161/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (162/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (163/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (164/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.3ms
+video 1/1 (165/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 5 persons, 1 tennis, 15.7ms
+video 1/1 (166/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 15.6ms
+video 1/1 (167/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (168/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.2ms
+video 1/1 (169/169) C:\yolov8\video\1.mp4: 384x640 3 hats, 4 persons, 1 tennis, 31.2ms
+Speed: 1.3ms preprocess, 25.1ms inference, 3.6ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to runs\detect\predict4

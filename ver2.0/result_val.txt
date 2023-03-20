@@ -1,0 +1,11 @@
+(pytorch) C:\yolov8>yolo task=detect mode=val model="C:\\yolov8\\runs\\detect\\train\\weights\\best.pt" data="C:\\yolov8\\dataset\\tennis\\data.yaml"
+Ultralytics YOLOv8.0.53  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
+Model summary (fused): 168 layers, 3006233 parameters, 0 gradients, 8.1 GFLOPs
+val: Scanning C:\yolov8\dataset\tennis\valid\labels.cache... 40 images, 0 backgrounds, 0 corrupt: 100%|██████████| 40/4
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 3/3 [00:08<0
+                   all         40        132      0.798      0.731      0.783      0.416
+                   hat         40         17      0.778      0.706      0.785      0.377
+                person         40         68      0.857      0.881      0.912      0.539
+                tennis         40         47       0.76      0.606      0.653      0.332
+Speed: 4.7ms preprocess, 25.2ms inference, 0.0ms loss, 5.4ms postprocess per image
+Results saved to runs\detect\val
