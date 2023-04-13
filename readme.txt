@@ -3,7 +3,9 @@ programme with yolov8
 language:python;Chinese
 
 # environment
+# ver1.0 ~ ver2.1
 Ultralytics YOLOv8.0.53  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
+# ver3.0
 
 # repository
 https://github.com/koinzh/bs
@@ -31,3 +33,5 @@ duck & objects
 https://app.roboflow.com/yolov8waterobj/duck-bgq7g/1
 # multi_objects
 https://app.roboflow.com/yolov8waterobj/multi_objects-mcguk/1
+# duck&swan
+https://app.roboflow.com/yolov8obj/duck-swan/1
