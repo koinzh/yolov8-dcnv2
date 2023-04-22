@@ -1,0 +1,82 @@
+100 epochs completed in 1.329 hours.
+Optimizer stripped from runs\detect\train2\weights\last.pt, 6.5MB
+Optimizer stripped from runs\detect\train2\weights\best.pt, 6.5MB
+
+Validating runs\detect\train2\weights\best.pt...
+Ultralytics YOLOv8.0.83  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
+YOLOv8-attention summary (fused): 174 layers, 3152416 parameters, 0 gradients, 8.7 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 16/16 [00:04<00:00,  3.52it
+                   all        128        929      0.555     0.0239     0.0309     0.0114
+                person        128        254      0.354     0.0733     0.0923     0.0288
+               bicycle        128          6          0          0          0          0
+                   car        128         46          1          0      0.004     0.0028
+            motorcycle        128          5          1          0     0.0477     0.0241
+              airplane        128          6          1          0     0.0237    0.00843
+                   bus        128          7          1          0    0.00935    0.00349
+                 train        128          3          1          0     0.0301    0.00902
+                 truck        128         12          1          0          0          0
+                  boat        128          6          1          0    0.00352   0.000352
+         traffic light        128         14          1          0     0.0142    0.00478
+             stop sign        128          2          0          0          0          0
+                 bench        128          9          1          0     0.0132    0.00263
+                  bird        128         16          1          0      0.116     0.0616
+                   cat        128          4          1          0     0.0149    0.00658
+                   dog        128          9          1          0    0.00331    0.00264
+                 horse        128          2          1          0          0          0
+              elephant        128         17      0.136      0.118     0.0842     0.0398
+                  bear        128          1          0          0          0          0
+                 zebra        128          4          1          0      0.028    0.00967
+               giraffe        128          9     0.0354      0.111     0.0408     0.0214
+              backpack        128          6          0          0          0          0
+              umbrella        128         18          1          0    0.00567    0.00418
+               handbag        128         19          1          0          0          0
+                   tie        128          7          1          0          0          0
+              suitcase        128          4          1          0     0.0344    0.00344
+               frisbee        128          5          0          0          0          0
+                  skis        128          1          0          0          0          0
+             snowboard        128          7          1          0      0.354      0.109
+           sports ball        128          6          0          0          0          0
+                  kite        128         10          0          0          0          0
+          baseball bat        128          4          0          0          0          0
+        baseball glove        128          7          0          0          0          0
+            skateboard        128          5          0          0          0          0
+         tennis racket        128          7          0          0          0          0
+                bottle        128         18          1          0          0          0
+            wine glass        128         16          0          0          0          0
+                   cup        128         36          1          0     0.0182    0.00962
+                  fork        128          6          0          0          0          0
+                 knife        128         16          1          0          0          0
+                 spoon        128         22          1          0          0          0
+                  bowl        128         28     0.0911      0.143     0.0633     0.0241
+                banana        128          1          0          0          0          0
+              sandwich        128          2          1          0          0          0
+                orange        128          4          1          0          0          0
+              broccoli        128         11          0          0          0          0
+                carrot        128         24      0.337      0.292      0.231      0.132
+               hot dog        128          2          1          0      0.178     0.0535
+                 pizza        128          5     0.0418        0.6      0.287     0.0834
+                 donut        128         14          1          0     0.0469     0.0209
+                  cake        128          4          1          0      0.156     0.0312
+                 chair        128         35      0.287      0.286      0.205     0.0863
+                 couch        128          6          1          0     0.0169    0.00752
+          potted plant        128         14          1          0      0.017    0.00339
+                   bed        128          3          1          0          0          0
+          dining table        128         13      0.104     0.0769     0.0282    0.00947
+                toilet        128          2          0          0          0          0
+                    tv        128          2          0          0          0          0
+                laptop        128          3          0          0          0          0
+                 mouse        128          2          0          0          0          0
+                remote        128          8          1          0          0          0
+            cell phone        128          8          0          0          0          0
+             microwave        128          3          1          0          0          0
+                  oven        128          5          0          0          0          0
+                  sink        128          6          1          0          0          0
+          refrigerator        128          5          1          0          0          0
+                  book        128         29          1          0          0          0
+                 clock        128          9          1          0      0.024    0.00768
+                  vase        128          2          0          0          0          0
+              scissors        128          1          0          0          0          0
+            teddy bear        128         21          1          0          0          0
+            toothbrush        128          5          0          0          0          0
+Speed: 1.0ms preprocess, 19.0ms inference, 0.0ms loss, 6.2ms postprocess per image
+Results saved to runs\detect\train2

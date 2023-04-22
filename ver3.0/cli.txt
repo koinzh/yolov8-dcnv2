@@ -1,0 +1,1 @@
+yolo task=detect mode=train model=C:\ultralytics\ultralytics\models\v8\yolov8-attention.yaml data=coco128.yaml epochs=100 imgsz=640 workers=4 batch=4
