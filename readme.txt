@@ -32,7 +32,8 @@ duck & objects
 yolov8-attention
 coco128
 # ver3.1
-yolov8-attention
+yolov8-DCNv2
+coco128	( result is bad)
 
 
 # dataset notes
