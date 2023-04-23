@@ -34,7 +34,9 @@ coco128
 # ver3.1
 yolov8-DCNv2
 coco128	( result is bad)
-
+# ver3.2
+yolov8-DCNv2
+duck&swan（效果也很差，为什么）
 
 # dataset notes
 # duck
