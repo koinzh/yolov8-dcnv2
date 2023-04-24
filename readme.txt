@@ -1,46 +1,51 @@
-codes of zhang xiaoyu's essay
-programme with yolov8
-language:python;Chinese
 
 # environment
 # ver1.0 ~ ver2.1
 Ultralytics YOLOv8.0.53  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
 # ver3.0（改进yolo）
 Ultralytics YOLOv8.0.83  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
-100 epochs（效果都很差，怀疑epoch太少）
+# ver4.0（改模型参数）
+Ultralytics YOLOv8.0.83  Python-3.9.15 torch-1.13.1+cu117 CUDA:0 (NVIDIA GeForce MX150, 2048MiB)
 
-# repository
-https://github.com/koinzh/bs
 
 # release notes
+
 # v1.0
 yolov8n+duck
+
 # v1.1
 yolov8s+duck
+
 # v1.2
 yolov8l+duck (failed)
+
 # v1.3
 yolov8m+duck (failed)
+
 # v1.4
 yolov8x+duck (failed)
+
 # v2.0
-yolov8n+objects
-best.pt & last.pt
+yolov8n+objects	best.pt & last.pt
+
 # v2.1
-yolov8n+best.pt
-duck & objects
+yolov8n+best.pt	duck & objects
+
 # ver3.0
-yolov8-attention
-coco128
+yolov8-attention	coco128
+
 # ver3.1
-yolov8-DCNv2
-coco128	( result is bad)
+yolov8-DCNv2	coco128	（效果很差，为什么）
+
 # ver3.2
-yolov8-DCNv2
-duck&swan（效果也很差，为什么）
-# ver3.
-yolov8-DCNv2
-duck（效果稍好，但也很差，为什么）
+yolov8-DCNv2	duck&swan（效果也很差，为什么）
+
+# ver3.3
+yolov8-DCNv2	duck（效果稍好，但也很差，为什么）
+
+# ver4.0
+yolov8-DCNv2	200epoch  duck（效果有提高，不如原版，178epoch早停）
+
 
 # dataset notes
 # duck
