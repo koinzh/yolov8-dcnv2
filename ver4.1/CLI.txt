@@ -1,0 +1,11 @@
+# train
+yolo task=detect mode=train model=C:\ultralytics\ultralytics\models\v8\yolov8-DCNv2.yaml data="C:\ultralytics\ultralytics\datasets\data.yaml" epochs=200 imgsz=640 workers=4 batch=4
+
+# val
+yolo task=detect mode=val model="C:\ultralytics\runs\detect\train\weights\best.pt" data="C:\ultralytics\ultralytics\datasets\data.yaml"
+
+# predict
+yolo detect mode=predict model="C:\ultralytics\runs\detect\train\weights\best.pt" source="C:\ultralytics\ultralytics\datasets\test\images" save=true
+
+# predict video
+yolo detect mode=predict model="C:\ultralytics\runs\detect\train\weights\best.pt" source="C:\ultralytics\ultralytics\video\1.mp4" save=true
