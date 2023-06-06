@@ -1,0 +1,10 @@
+# dataset path
+train: C:/ultralytics/datasets/train/images
+val: C:/ultralytics/datasets/valid/images
+test: C:/ultralytics/datasets/test/images
+
+# number of classes
+nc: 1 
+
+# class names
+names: ['duck']

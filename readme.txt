@@ -55,6 +55,9 @@ yolov8n	100epoch	big duck
 # ver4.3
 yolov8-DCNv2	best.pt	100epoch	big duck	early stopping 51
 
+# ver4.4
+yolov8n	200epoch	big duck
+
 # dataset notes
 # duck
 https://app.roboflow.com/yolov8waterobj/duck-bgq7g/1

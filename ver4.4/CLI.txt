@@ -1,0 +1,11 @@
+# train
+yolo task=detect mode=train model="C:\ultralytics\yolov8n.pt" data="C:\ultralytics\datasets\data.yaml" 
+
+# val
+yolo task=detect mode=val model="C:\ultralytics\runs\detect\train\weights\best.pt" data="C:\ultralytics\datasets\data.yaml"
+
+# predict
+yolo detect mode=predict model="C:\\yolov8\\runs\\detect\\train6\\weights\\best.pt" source="C:\\yolov8\\images" save=true
+
+# predict video
+yolo detect mode=predict model="C:\ultralytics\best.pt" source="C:\ultralytics\video\1.mp4" save=true
